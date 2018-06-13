@@ -11,7 +11,7 @@ while true
         elsif z == "subtract"; puts "#{x} - #{y} = #{x - y}"
         elsif z == "multiply"; puts "#{x} * #{y} = #{x * y}"
         elsif z == "divide"
-            if (x == 0) || (y == 0); puts "You can't divide by zero, try not making a blakchole."
+            if y == 0; puts "You can't divide by zero, try not making a blakchole."
             else; puts "#{x} / #{y} = #{x / y}"
             end
         end
